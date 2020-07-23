@@ -3,7 +3,7 @@ This is a step by step walkthrough on how to create your own student account on 
 
  1. On the EDURange Home page, click *`Create Accout`* on the navigation bar in the upper right hand corner of the page.
 
- ![EDURange Home page](edurange-flask-docs/assets/stu/eduHome.png)
+ ![EDURange Home page](/edurange-flask-docs/assets/stu/eduHome.png)
 
 
 
