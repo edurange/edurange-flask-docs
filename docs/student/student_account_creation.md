@@ -22,6 +22,3 @@ This is a step by step walkthrough on how to create your own student account on 
  If you created your account and logged in correctly, then you should be able to see a *`Dashboard`* option on your sidebar, which can be shown or hidden by clicking the `Navigate` button on the navigation bar at the upper left hand corner of the page.
 
 ![Student Dashboard](/assets/stu/eduStuDash.png)
-
-
-> Written with [StackEdit](https://stackedit.io/).
