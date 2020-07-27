@@ -1,6 +1,6 @@
 ## Student Groups Guide
 
-This guide is a step by step walkthrough for creating and managing student groups.
+This guide is a step by step walkthrough for instructors on creating and managing student groups.
 
  1. On your Admin Dashboard, in the `Create Student Group` box input a group name and press the `Create` button.
 
