@@ -1,6 +1,6 @@
 ## EDURange Installation
 
-This is a step by step walkthrough for instructors on how to install the new EDURange application on a new Ubuntu operating system.
+This is a step by step walkthrough for instructors on how to install the EDURange application on the Ubuntu operating system.
 
  1. If you have not already, install pip3 using 
  		`sudo apt install python3-pip`
