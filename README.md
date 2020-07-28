@@ -8,15 +8,15 @@ This repository contains documentation for developers, instructors, and students
 Listed here is a table of contents for the documentation in this repository
 
 -student
-	-Student Account Creation
-	-Finding Scenario Information
-	-EDURange Student Webpage Reference Guide
+  -Student Account Creation
+  -Finding Scenario Information
+  -EDURange Student Webpage Reference Guide
 -instructor
-	-EDURange Installation Documentation
-	-Student Groups Creation and Management
-	-Scenario Creation
-	-EDURange Instructor Webpage Reference Guide
+  -EDURange Installation Documentation
+  -Student Groups Creation and Management
+  -Scenario Creation
+  -EDURange Instructor Webpage Reference Guide
 -dev
-	-EDURange Installation Documentation
-	-EDURange Developer Webpage Reference Guide
-	-EDURange File System Guide
+  -EDURange Installation Documentation
+  -EDURange Developer Webpage Reference Guide
+  -EDURange File System Guide
