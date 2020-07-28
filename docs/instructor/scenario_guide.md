@@ -24,4 +24,4 @@ This guide is a step by step walkthrough for instructors on creating and managin
 
 
 
-It should be noted that currently students who are added to groups after the creation of a scenario for that group, will not be able to access the scenario. To allow late students to access a group scenario, you can destroy the scenario and create it again for the group to automatically add new students to the scenario.
+> It should be noted that currently students who are added to groups after the creation of a scenario for that group, will not be able to access the scenario. To allow late students to access a group scenario, you can destroy the scenario and create it again for the group to automatically add new students to the scenario.
