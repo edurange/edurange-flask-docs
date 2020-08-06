@@ -80,7 +80,7 @@ The scenario creation page is accessible by pressing the `New Scenario` button a
 
 
 
-The scenario information page is accessible by pressing the listed name of a scenario on the `Scenarios` table. The page displays various details about the selected scenario.
+The scenario information page is accessible by pressing the listed name of a scenario on the `Scenarios` table. The page displays various details about the selected scenario. Including student responses to scenario questions which can be found in the `Responses` tab.
 
 ![Scenario Info](/assets/inst/page_guide/scenarios/scenarioInfo.png)
 

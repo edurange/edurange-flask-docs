@@ -27,7 +27,7 @@ The `Scenarios` table shows all of the scenarios that a student is a part of. Th
 
 
 
-The scenario information page, is accessible via the listed name of any scenario in the students `Scenarios` table. Each scenario information page has important information about the selected scenario, including ssh information. This is also the page where students will be able to submit responses to questions about the scenario.
+The scenario information page, is accessible via the listed name of any scenario in the students `Scenarios` table. Each scenario information page has important information about the selected scenario, including ssh information. This is also the page where students will be able to submit responses to questions about the scenario. A guide is also available under the `Guide` tab.
 
 ![Scenario Info Page](/assets/stu/page_guide/scenarioInfo.png)
 
