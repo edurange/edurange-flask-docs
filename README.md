@@ -20,3 +20,4 @@ Listed here is a table of contents for the documentation in this repository
   - EDURange Installation Documentation
   - EDURange Developer Webpage Reference Guide
   - EDURange File System Guide
+  - EDURange Developer Database Reference Guide
