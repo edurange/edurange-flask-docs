@@ -68,7 +68,7 @@ This is a step by step walkthrough for instructors on how to install the EDURang
  	
 	`\q`
 
-It should be noted that the database user password and the database name can be personalized but the `.env` file will need to be changed to match.
+> It should be noted that the database user password and the database name can be personalized but the `.env` file will need to be changed to match.
 
 ---
 
