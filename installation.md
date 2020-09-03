@@ -21,7 +21,7 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 	`git clone https://github.com/coojac09/edurange-flask.git`
 
 3. Change directories to the applications root directory using 
- 	`ch edurange-flask`
+ 	`cd edurange-flask`
 
 4. Install the applications requirements using 
  	`pip3 install -r requirements/dev.txt`
@@ -55,6 +55,8 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 
 13. Exit the postgres command line using 
  	`\q`
+
+It should be noted that the database user password and the database name can be personalized but the `.env` file will need to be changed to match.
 
 ---
 
