@@ -48,23 +48,27 @@ This is a step by step walkthrough for instructors on how to install the EDURang
  	
 	-`mkdir data/tmp`
 
+10. Make the logs directory using
+	
+	`mkdir logs`
+
 ---
 
 #### Setting Up the Postgres Server
 
-10. Open the postgres command line using 
+11. Open the postgres command line using 
  	
 	`sudo -u postgres psql`
 
-11. Change the default user using 
+12. Change the default user using 
  	
 	`ALTER USER postgres WITH PASSWORD 'passwordfoo';`
 
-12. Create the postgres database using 
+13. Create the postgres database using 
  	
 	`CREATE DATABASE refactor;`
 
-13. Exit the postgres command line using 
+14. Exit the postgres command line using 
  	
 	`\q`
 
@@ -74,15 +78,15 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 
 #### Setting Up Terraform
 
-14. Download terraform from the terraform website using
+15. Download terraform from the terraform website using
  	
 	`wget https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip`
 
-15. Unzip the downloaded folder using
+16. Unzip the downloaded folder using
 	
 	`unzip terraform_0.12.29_linux_amd64.zip`
 
-16. Move the terraform folder to `/usr/bin/terraform` using
+17. Move the terraform folder to `/usr/bin/terraform` using
 	
 	`sudo mv terraform /usr/bin/terraform`
 
@@ -90,28 +94,48 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 
 #### Setting Up Docker
 
-17. Download docker from the docker website using
+18. Download docker from the docker website using
 	
 	`wget get.docker.com`
 
-18. Rename the downloaded index.html using
+19. Rename the downloaded index.html using
 	
 	`mv index.html docker.sh`
 
-19. Make docker.sh an executable using
+20. Make docker.sh an executable using
 	
 	`chmod +x docker.sh`
 
-20. Run docker.sh using
+21. Run docker.sh using
 	
 	`./docker.sh`
 
+> Please note that to run docker the user on the host machine must have access to the Docker bash command. You can test this by entering `docker run hello-world` into the command line.
+
+22. Create the docker group and add your user to it using
+
+	`sudo groupadd docker`
+
+	`sudo usermod -aG docker ${USER}`
+
+	> `${USER}` may need to be replaced with your username if bash is not able to recognize it as a variable.
+
 ---
 
-21. Run the application from the `edurange-flask` directory using
+23. Run the application from the `edurange-flask` directory using
 	
 	`npm start`
+
+
+> Optionaly if administrators would like the application to be accessible on port 80 instead of port 5000, the following iptables rules can be executed
+>	`sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 5000`
+>	`sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 5000`
 
 Upon running `npm start` the application should start running showing you a log of the applications activities with their related services highlighted. Webpack should be blue, Flask should be purple, and Celery should be green.
 
 The application webpage can now be accessed by going to `127.0.0.1:5000` using your preferred web browser. You can log in with the default admin credentials that you set in the `.env` file. To stop the application simply go to the terminal showing the application activity log and press `Ctrl + C`.
+
+
+> Known issue:
+> The first time the server is launched after resetting the database, there may be an "SQLKeyIntegrityError". This is from the admin user creation, restarting npm and refreshing the page should fix it, and it should never appear again.
+
