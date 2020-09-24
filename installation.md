@@ -38,9 +38,9 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 	
 	`npm install`
 
-7. Get a copy of the `.env` file. Currently the only way to do this is by contacting an EDURange administrator.
+7. Rename the `.env.example` file to `.env`
 
-8. Edit the credentials for the default admin. Be careful in doing so, as this will be your admin account on the application.
+8. Edit the sections marked by the comments, namely the secret key and the default admin login credentials. The email server information is technically optional, but the account recovery/reset password functionality will be broken unless a valid email account and server are specified.
 
 9. Make the data/tmp directories using:
  	
