@@ -20,7 +20,7 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 
 2. Clone the Github repository using
 	
-	`git clone https://github.com/coojac09/edurange-flask.git`
+	`git clone https://github.com/edurange/edurange-flask.git`
 
 3. Change directories to the applications root directory using 
  	
