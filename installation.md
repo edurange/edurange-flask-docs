@@ -32,7 +32,7 @@ This is a step by step walkthrough for instructors on how to install the EDURang
 
 5. Make sure the application is on your path using 
  	
-	`export PATH=$PATH : /home/$(whoami)/.local/bin`
+	`export PATH=$PATH:/home/$(whoami)/.local/bin`
 
 6. Prepare npm to run using
 	
