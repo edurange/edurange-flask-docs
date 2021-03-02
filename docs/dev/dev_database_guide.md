@@ -34,7 +34,7 @@ The stored information is:
 - `id` - the group id
 - `name` - the name chosen for the group
 - `owner_id` - the user id of the instructor that created the group
-- `code` - the randomly generated code that allows users to join the group upon creating their accound
+- `code` - the randomly generated code that allows users to join the group upon creating their account
 - `hidden` - a boolean value that hides the group from various forms on the webpage. Solely used by the `ALL` group.
 The `groups` table has one relation value. This value is the `owner_id` which is linked to the `users` table. The `owner` entry in the `StudentGroups` class in creates this relation.
 
