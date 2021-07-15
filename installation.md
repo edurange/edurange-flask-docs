@@ -1,3 +1,5 @@
+# DEPRECATED - Please follow the instructions in the README of the edurange-flask repository
+
 ## EDURange Installation
 
 This is a step by step walkthrough for instructors on how to install the EDURange application on the Ubuntu operating system.
